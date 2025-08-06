@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: 	#e3e8e4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.name{
+   background: linear-gradient(to right, #00c6ff, #0072ff); /* Sky blue gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+
+
+.name {
+  background: linear-gradient(270deg, #00c6ff, #0072ff, #00c6ff);
+  background-size: 600% 600%;
+  animation: gradientMove 4s ease-in-out infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.rainy{
+   background: linear-gradient(to right, #4e54c8, #8f94fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+
+} 
+
+.hot {
+  background: linear-gradient(to right, #ff512f, #dd2476); /* hot pink/red */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.warm {
+  background: linear-gradient(to right, #f7971e, #ffd200); /* orange/yellow */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.cool {
+  background: linear-gradient(to right, #56ccf2, #2f80ed); /* blue shades */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.cold {
+  background: linear-gradient(to right, #83a4d4, #b6fbff); /* icy blue */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+
+
